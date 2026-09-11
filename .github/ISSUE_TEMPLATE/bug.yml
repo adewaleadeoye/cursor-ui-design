@@ -1,0 +1,19 @@
+name: Bug or spec gap
+description: Something in the skill, freeze, or docs is wrong
+title: "[bug] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What the agent did vs what the skill says.
+    validations:
+      required: true
+  - type: textarea
+    id: files
+    attributes:
+      label: Files
+      description: Skill or template paths involved.
+    validations:
+      required: false

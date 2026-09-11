@@ -1,0 +1,12 @@
+name: Idea
+description: Improve the visual contract or examples
+title: "[idea] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: Keep core skill product-agnostic. Domain detail belongs in examples/.
+    validations:
+      required: true

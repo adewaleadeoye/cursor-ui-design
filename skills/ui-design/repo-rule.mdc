@@ -1,0 +1,19 @@
+---
+description: UI must follow project DESIGN.md and the ui-design skill
+globs: "**/*.{tsx,jsx,vue,svelte,css,scss,html}"
+alwaysApply: false
+---
+
+# UI design (project hook)
+
+Follow the `ui-design` skill (personal: `~/.cursor/skills/ui-design`, or this repo’s copy).
+
+1. Read **DESIGN.md** in this repo before creating or editing UI.
+2. Reuse existing UI primitives. No second button/input/dialog.
+3. Semantic tokens / CSS variables only. No raw hex. No default Tailwind palette as brand.
+4. Spacing on the 4px scale. Surface density from DESIGN.md (`marketing` | `app` | `data` | `form` | `media`).
+5. WCAG 2.2 AA: 4.5:1 text, 24px targets, visible focus, `prefers-reduced-motion`.
+6. Empty, loading, error, disabled, permission states on every new screen.
+7. After user-visible UI changes, verify in the browser at 375 / 768 / 1440 and fix what you see.
+8. Forbidden: `transition-all`, `hover:scale-*` as a default, TypeUI / UIUX Pro Max catalogs.
+9. Marketing/landing/storefront: honor `DESIGN.md` token freeze exactly. Diff CSS vs freeze before done. Paste the slop checklist in the reply. Do not retint hue to “fix” slop. Sibling palette overlap is allowed; whole-identity copycat without a written reason is not.

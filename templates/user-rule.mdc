@@ -1,0 +1,14 @@
+---
+description: Global UI design — DESIGN.md lookup, tokens, browser verification
+alwaysApply: true
+---
+
+# UI design (user)
+
+When creating or editing UI, follow the personal skill **ui-design**.
+
+Spec order: project `DESIGN.md` (wins) → project tokens → project UI kit → the skill fallback `DESIGN.md`.
+
+Do not use TypeUI, UIUX Pro Max, raw hex, or `hover:scale-*` / `transition-all` as defaults. Verify user-visible UI in the browser at 375 / 768 / 1440.
+
+Honor `DESIGN.md` token freezes exactly. Do not retint hue to “fix slop.” Diff CSS vs freeze. Marketing surfaces: paste the slop checklist. Palettes may overlap siblings when the category or a user seed matches; do not ban hue families globally. If there is no freeze, ask for two shades or a gradient. Optional third shade is ink (body text); derive type contrast — do not use primary as body.

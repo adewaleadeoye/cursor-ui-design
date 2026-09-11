@@ -1,0 +1,38 @@
+{
+  "$schema": "https://www.designtokens.org/tr/2025.10/format/",
+  "color": {
+    "$type": "color",
+    "stone-50": { "$value": "#FAFAF9", "$description": "Primitive surface; replace per brand" },
+    "stone-800": { "$value": "#1C1917", "$description": "Primitive ink; replace per brand" },
+    "stone-600": { "$value": "#57534E", "$description": "Primitive muted text" },
+    "stone-200": { "$value": "#E7E5E4", "$description": "Primitive border" },
+    "blue-700": { "$value": "#1D4ED8", "$description": "Primitive action; replace per brand" },
+    "blue-800": { "$value": "#1E40AF" },
+    "red-700": { "$value": "#B91C1C" }
+  },
+  "semantic": {
+    "color": {
+      "$type": "color",
+      "surface": { "$value": "{color.stone-50}" },
+      "ink": { "$value": "{color.stone-800}" },
+      "muted": { "$value": "{color.stone-600}" },
+      "border": { "$value": "{color.stone-200}" },
+      "action": { "$value": "{color.blue-700}" },
+      "action-hover": { "$value": "{color.blue-800}" },
+      "danger": { "$value": "{color.red-700}" }
+    }
+  },
+  "space": {
+    "$type": "dimension",
+    "1": { "$value": "4px" },
+    "2": { "$value": "8px" },
+    "4": { "$value": "16px" },
+    "6": { "$value": "24px" },
+    "8": { "$value": "32px" },
+    "12": { "$value": "48px" }
+  },
+  "radius": {
+    "$type": "dimension",
+    "md": { "$value": "8px" }
+  }
+}
